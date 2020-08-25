@@ -9,10 +9,11 @@ class Shoe
  end
  
  def cobble(shoe_condition)
-   puts "Your shoe is as good as new!"
-    if shoe_condition = "old"
+   if shoe_condition = "old"
       puts "new"
     end
+   puts "Your shoe is as good as new!"
+    
  end
  
  
