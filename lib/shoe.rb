@@ -8,10 +8,14 @@ class Shoe
    @brand
  end
  
- def cobble
-   condition.new = "new"
+ def cobble(condition)
+
    puts "Your shoe is as good as new!"
  end
  
  
  end
+ 
+# person = Person.new("Ada")
+# person.password=("super secret")
+# p person
